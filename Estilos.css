@@ -1,0 +1,45 @@
+body {
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  display: flex;
+  height: 97.4vh;
+  width: 98%;
+}
+h1 {
+  margin-bottom: 36%;
+  font-size: 27px;
+  position: absolute;
+}
+label {
+  margin-right: 30px;
+  font-size: 18px;
+}
+select {
+  width: 200px;
+}
+button {
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  height: 30px;
+  width: 200px;
+}
+h2 {
+  font-size: 18px;
+}
+.content-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  width: 100%;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

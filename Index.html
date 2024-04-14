@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Estilos.css" type="text/css" />
+    <title>Costo de envió</title>
+  </head>
+  <body>
+    <h1 class="titulo">Calculadora de Costos</h1>
+    <div class="content-form">
+      <div>
+        <select id="producto">
+          <option value="Tipo de producto">Tipo de producto</option>
+          <option value="Perecederos">Perecederos</option>
+          <option value=" No Perecederos">No Perecederos</option>
+        </select>
+      </div>
+      <div>
+        <label>Peso del paquete(Kg)</label>
+        <input placeholder="peso" type="number" id="peso" />
+      </div>
+      <div>
+        <label>Distancia(Km)</label>
+        <input placeholder="distancia" type="number" id="distancia" />
+      </div>
+      <button id="calcular">calcular</button>
+
+      <div>
+        <h2 id="costo"></h2>
+      </div>
+
+      <div>
+        <h2 id="tiempo"></h2>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
